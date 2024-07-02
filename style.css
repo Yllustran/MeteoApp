@@ -105,7 +105,7 @@ body {
  .container_details{
     margin-top: 7em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 } 
 
@@ -121,7 +121,8 @@ body {
 }
 
 .meteo-details img {
-    width: 100%;
+    width: 50px;
+    margin-right: 10px;
 }
 
 .container_info_meteo {
