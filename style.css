@@ -120,6 +120,7 @@ body {
     gap: 5px;
 }
 
+
 .meteo-details img {
     width: 50px;
     margin-right: 10px;
@@ -128,4 +129,33 @@ body {
 .container_info_meteo {
     margin-top: 10px;
 
+}
+
+
+.meteo-box,
+.meteo-details,
+.not-found,
+.wind {
+    visibility: hidden;
+}
+
+.meteo-box.active,
+.meteo-details.active,
+.not-found.active,
+.wind.active {
+    visibility: visible;
+}
+
+.not-found {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.not-found img {
+    width: 65%;
 }
